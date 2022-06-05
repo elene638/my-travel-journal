@@ -7,6 +7,7 @@ function App() {
     const mainPart = destinations.map((event) => {
         return (
             <Main 
+                key={event.id}
                 title={event.title}
                 location={event.location}
                 googleMapsUrl={event.googleMapsUrl}

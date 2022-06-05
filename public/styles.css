@@ -5,6 +5,7 @@
 
 body {
     margin: 0px;
+    font-family: 'Inter';
 }
 
 .header {
@@ -15,7 +16,6 @@ body {
 }
 
 .headline {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -24,14 +24,78 @@ body {
     color: #FFFFFF;
 }
 
-.fa-solid {
+.fa-earth-europe {
     height: 24px;
     width: 24px;
+}
+
+
+.main {
+    display: flex;
+    margin: auto;
+    width: 550px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 img {
     height: 168px;
     width: 125px;
     border-radius: 5px;
+}
 
+.description {
+    margin-left: 10px;
+
+}
+
+.descriptionText,
+.location,
+.map {
+    font-size: 10px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.title,
+.date {
+    text-align: left;
+}
+
+.descriptionText {
+    width: 450px;
+    line-height: 15px;
+
+}
+
+.location {
+    line-height: 12px;
+    letter-spacing: 0.17em;
+}
+
+.fa-location-dot {
+    height: 9.5px;
+    width: 7px;
+    color: #F55A5A;
+    margin-right: 5px;
+}
+
+.map {
+    line-height: 12px;
+    letter-spacing: 0em;
+    color: #918E9B;
+}
+
+.title {
+    color: #2B283A;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.date {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    color: #2B283A;
 }
