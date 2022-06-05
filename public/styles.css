@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+}
+
+.header {
+    background-color: #F55A5A;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headline {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+}
+
+.fa-solid {
+    height: 24px;
+    width: 24px;
+}
+
+img {
+    height: 168px;
+    width: 125px;
+    border-radius: 5px;
+
+}
